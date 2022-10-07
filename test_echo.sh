@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "TEST SCRIPT"
+timestamp=$(date +%s)
+echo "${timestamp} : THIS IS TEST SCRIPT"
